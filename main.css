@@ -24,6 +24,12 @@
     background: url(polina.jpg) no-repeat;
     background-size: cover;
 }
+
+@media(max-width:767px) {
+  #background {
+    display: none;
+  }
+}
 .container h1 {
     color: white;
 }
@@ -208,6 +214,12 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+@media(max-width: 767px) {
+  header {
+        background-image: url(http://res.cloudinary.com/synapticsynergy/image/upload/v1460579810/Dancing-Bulbs_v2ykhb.jpg);
+  }
 }
 
 header .header-content {
