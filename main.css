@@ -4,8 +4,14 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-.white-font {
+.color-change-font {
   color: white;
+}
+
+@media (max-width: 767px) {
+  .color-change-font {
+    color: #777;
+  }
 }
 
 #background {
@@ -218,7 +224,7 @@ header {
 
 @media(max-width: 767px) {
   header {
-        background-image: url(http://res.cloudinary.com/synapticsynergy/image/upload/v1460579810/Dancing-Bulbs_v2ykhb.jpg);
+    background-image: url(http://res.cloudinary.com/synapticsynergy/image/upload/v1460579810/Dancing-Bulbs_v2ykhb.jpg);
   }
 }
 
