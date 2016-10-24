@@ -224,8 +224,11 @@ header {
 
 @media(max-width: 767px) {
   header {
-    background-image: url(http://res.cloudinary.com/synapticsynergy/image/upload/v1460579810/Dancing-Bulbs_v2ykhb.jpg);
+    background-image: url(https://images.unsplash.com/uploads/14131702967496089ef48/1fbb59d6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=e8dad20fa6694a013cde51d632861eec);
   }
+/*  header .header-content-inner {
+    margin-top: 60px;
+  }*/
 }
 
 header .header-content {
