@@ -332,9 +332,15 @@ header .header-content .header-content-inner p {
     color: #fff;
     opacity: 0;
     background: rgba(240,95,64,.9);
-    -webkit-transition: all .35s;
+/*    -webkit-transition: all .35s;
     -moz-transition: all .35s;
-    transition: all .35s;
+    transition: all .35s;*/
+
+    transition: all ease 500ms;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    transition-delay: initial;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -528,9 +534,13 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    -webkit-tap-highlight-color: #A2AB58;
+@media only screen and (max-width: 768px) {
+    body {
+        -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+    }
 }
+
+
 
 @charset "UTF-8";/*!
 Animate.css - http://daneden.me/animate
