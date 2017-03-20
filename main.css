@@ -60,6 +60,10 @@ hr.light {
     border-color: #fff;
 }
 
+.hrMarginBottom {
+    margin-bottom: 100px;
+}
+
 a {
     color: #67BCDB;
     -webkit-transition: all .35s;
