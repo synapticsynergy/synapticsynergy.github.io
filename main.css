@@ -529,7 +529,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #A2AB58;
+    -webkit-tap-highlight-color: #A2AB58;
 }
 
 @charset "UTF-8";/*!
