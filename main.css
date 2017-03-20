@@ -309,6 +309,12 @@ header .header-content .header-content-inner p {
   padding: 100px;
 }
 
+@media(max-width:767px) {
+  #white-box {
+    padding: 50px;
+  }
+}
+
 .portfolio-box {
     display: block;
     position: relative;
