@@ -5,6 +5,10 @@
  */
 
 .color-change-font {
+  color: rgba(255,255,255,.7);;
+}
+
+.color-change-title {
   color: white;
 }
 
@@ -249,9 +253,12 @@ header .header-content .header-content-inner h1 {
     font-weight: 700;
 }
 
-header .header-content .header-content-inner hr {
-    margin: 60px auto;
+@media(max-width: 767px){
+    header .header-content .header-content-inner hr {
+        margin: 60px auto;
+    }
 }
+
 
 header .header-content .header-content-inner p {
     margin-bottom: 60px;
