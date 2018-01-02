@@ -40,6 +40,13 @@
   }
 }
 
+@media(min-width: 1696px) {
+    #background {
+        min-width: 115%;
+        min-height: 115%;
+    }
+}
+
 .container h1 {
     color: white;
 }
